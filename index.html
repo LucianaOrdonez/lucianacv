@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Tu curriculum vitae</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@100&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/2922/2922572.png">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="CV Shelly Vazquez" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content=" http://www.example.com" /> <!--donde va a estar subido esto. seria en git? -->
+    <meta property="og:image" content="https://cdn.icon-icons.com/icons2/2643/PNG/512/female_woman_avatar_people_person_white_tone_icon_159370.png" />
+    <meta property="og:description" content="Esta es una landing page que muestra el curriculum vitae de una mujer" />
+</head>
+
+<body>
+    <header>
+        <h1>Shelly Vasquez</h1>
+    </header>
+    
+    <main>
+        <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="Fotografía de C.V.de Shelly Vasquez" height="300px" width="300px">
+
+        <section id="datos-personales"> 
+            <h2>DATOS PERSONALES</h2>
+            <h3>Nacionalidad:</h3>
+            <p>Estados Unidos</p>
+            <h3>Calle:</h3>
+            <p>5453 Pokrus</p>
+            <h3>Provincia:</h3>
+            <p>Michigan</p>
+            <h3>Número de teléfono:</h3>
+            <p>(461)565-9411</p>
+            <h3>Email:</h3>
+            <p>shelly-vasquez@example.com</p> 
+        </section>
+        
+        <section id="habilidades">
+            <h2> HABILIDADES </h2>
+            <p>Comprometida en las tareas a realizar. Intento resolver los inconvenientes y me implico con la empresa. Soy una persona pacífica con sentido de responsabilidad y que tiene ganas de aprender.</p>
+        </section>
+
+        <section id="experiencia-laboral">
+            <h2> EXPERIENCIA LABORAL </h2>
+            <div>
+                <div class="puestos">
+                    <ul>
+                        <li><strong>Diseñadora Gráfica</strong></li>
+                    </ul>
+                    <h3>Puesto:</h3>
+                    <p>Diseñadora Digital en redes sociales</p> 
+                    <h3>Tareas desarrolladas:</h3>
+                    <p>Organización de reuniones con el cliente y de los contenidos digitales, armado de piezas gráficas para publicidad, banners y logos de marca.</p> 
+                </div>
+
+                <div class="puesto">
+                    <ul>
+                        <li><strong>Cuenta propia profesional</strong></li>
+                    </ul>
+                    <h3>Puesto:</h3>
+                    <p>Community Management de marcas en redes sociales</p>
+                    <h3>Tareas desarrolladas:</h3>
+                    <p>Coordinación de reuniones con el cliente, armado y creación de los contenidos digitales y piezas gráficas, asesoramiento de estrategias digitales para el crecimiento de la fidelidad con la clientela, entrega  y cobro de los productos.</p>
+                </div>
+
+                <div class="puestos">
+                    <ul>
+                        <li><strong>Consultora telefónica automotriz</strong></li>
+                    </ul>
+                    <h3>Puesto:</h3> 
+                    <p>Consultora telefónica</p>
+                    <h3>Tareas desarrolladas:</h3>
+                    <p>Atención al cliente en forma telefónica. Asistencia y asesoramiento en compra y venta de planes de ahorro de autos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>¿Hablamos? Bienvenido a mi página personal</h2>
+            <h3>Puedes contactarte conmigo desde aquí:</h3>
+            <form action="" method="post">
+                <div>
+                    <label>Nombre</label>
+                    <input type="text" name="nombre" placeholder="Escribe su nombre" />
+                </div>
+            
+                <div>
+                    <label>Asunto</label>
+                    <input type="text" name="asunto" placeholder="Escribe su asunto" />
+                </div>
+                <div>
+                    <label>E-mail</label>
+                    <input type="email" name="email" placeholder="Ingrese su e-mail" />
+                </div>
+                <div>
+                    <label>Mensaje</label>
+                    <textarea>Hola!! Escribe su mensaje, por favor</textarea>
+                </div>
+                    <div>
+                    <button type="button" id="botón">Enviar</button>
+                </div>
+                <div>
+                    <p id="envío">Clickea en el botón para enviar su mensaje</p>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>@derechos reservados</p>
+        <p>Creado por LucianaO</p>
+    </footer>
+
+    <script src="function.js"></script>    
+</body>
+</html>

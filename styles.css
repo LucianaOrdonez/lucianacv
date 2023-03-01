@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+   }
+   
+   @media only screen and (max-width:767px){
+    footer{
+    display: flex;
+    justify-content: center;
+    }
+   }
+   
+   
+   body{
+    background-color: #E9EDC9;
+   }
+   
+   img{
+    display: block;
+    margin: auto;
+    border: 20px solid white;
+    margin-bottom: 60px;
+     
+   }
+   
+   h1{
+    font-family: 'Tilt Neon', cursive;
+    font-size: 4rem;
+    margin-bottom: 60px;
+    text-align: center;
+    background-color: white;
+   }
+   h2{
+    font-size: 2rem;
+   }
+   
+   section#datos-personales{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    background-color: lightgray;
+    border: 3px solid #D9863D;
+   }
+   section#datos-personales h2{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #D4A373;
+    color: #BF5B21;
+    text-align: center;
+    font-style: italic;
+   }
+   
+   section#habilidades h2{
+    margin-right: 30px;
+    margin-left: 30px;
+    color: #BF5B21;
+    font-style: italic;
+    background-color: #D4A373;
+    text-align: center;
+   }
+   section#habilidades p{
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+   }
+   
+   
+   
+   section#experiencia-laboral{
+    margin-left: 30px;
+    margin-right: 30px;
+   
+   }
+   section#experiencia-laboral h2{
+    color: #BF5B21;
+    font-style: italic;
+    text-align: center;
+    background-color: #D4A373;
+   }
+   .puestos{
+    background-color: #FEFAE0;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    border-left: 3px solid #D4A373;
+    
+   }
+   .puesto{
+    background-color: #FAEDCD;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 3px; 
+    border-left: 3px solid #D4A373;
+   }
+   
+   
+   section#experiencia-laboral div div ul{
+    font-size: 1.5rem;
+   
+   }
+   section#experiencia-laboral div div h3{
+   
+    padding-left: 40px;
+    padding-right: 30px;
+    font-style: italic;
+   }
+   section#experiencia-laboral div div p{
+    padding-left: 40px;
+    padding-right: 30px;
+   }
+   
+   
+   section#contacto{
+    background-color: #CCD5AE;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   }
+   section#contacto h2{
+    padding-top: 15px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 2rem;
+   }
+   section#contacto h3{
+    text-align: center;
+   }
+   section#contacto form{
+    margin: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+   }
+   
+   
+   footer{
+    display: flex;
+    justify-content: right;
+    background-color: white;
+   }
+   footer p{
+    color: #CCD5AE;
+    font-style: italic;
+    padding-left: 20px;
+    padding-right: 20px;
+   }
